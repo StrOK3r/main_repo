@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+  padding: 10px;
+  font: 15px Arial;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #16A177;
+  background-color: #16A177;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .menu a:hover, .menu a.active {
+  color: #16A177;
+  border: 1px solid #16A177;
+  background-color: #F5F6FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
